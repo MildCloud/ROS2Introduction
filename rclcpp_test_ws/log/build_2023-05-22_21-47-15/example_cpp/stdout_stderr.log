@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target node_02[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node_02.dir/src/node_02.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_02[0m
+[100%] Built target node_02
+-- Install configuration: ""
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/share/example_cpp/package.xml
+-- Installing: /home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/lib/example_cpp/node_02
+-- Set runtime path of "/home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp/lib/example_cpp/node_02" to ""

@@ -1,0 +1,51 @@
+[0.076s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_service
+[2.489s] -- The C compiler identification is GNU 11.3.0
+[2.489s] -- The CXX compiler identification is GNU 11.3.0
+[2.489s] -- Detecting C compiler ABI info
+[2.489s] -- Detecting C compiler ABI info - done
+[2.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.489s] -- Detecting C compile features
+[2.489s] -- Detecting C compile features - done
+[2.489s] -- Detecting CXX compiler ABI info
+[2.489s] -- Detecting CXX compiler ABI info - done
+[2.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.489s] -- Detecting CXX compile features
+[2.489s] -- Detecting CXX compile features - done
+[2.489s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.489s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.489s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.489s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.489s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.495s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.791s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.921s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.924s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.270s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.360s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.941s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.949s] -- Looking for pthread.h
+[8.213s] -- Looking for pthread.h - found
+[8.213s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.478s] -- Found Threads: TRUE  
+[8.691s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.832s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.834s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.834s] -- Configured cppcheck include dirs: 
+[8.834s] -- Configured cppcheck exclude dirs and/or files: 
+[8.835s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.835s] -- Configured cpplint exclude dirs and/or files: 
+[8.836s] -- Added test 'lint_cmake' to check CMake code style
+[8.838s] -- Added test 'uncrustify' to check C / C++ code style
+[8.838s] -- Configured uncrustify additional arguments: 
+[8.839s] -- Added test 'xmllint' to check XML markup files
+[8.842s] -- Configuring done
+[8.859s] -- Generating done
+[8.862s] -- Build files have been written to: /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_service
+[9.527s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_service
+[9.532s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_service -- -j20 -l20
+[10.052s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[74.275s] [100%] [32m[1mLinking CXX executable service_main[0m
+[74.810s] [100%] Built target service_main

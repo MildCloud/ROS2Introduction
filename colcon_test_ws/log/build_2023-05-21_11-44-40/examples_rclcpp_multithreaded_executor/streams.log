@@ -1,0 +1,54 @@
+[0.069s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[2.482s] -- The C compiler identification is GNU 11.3.0
+[2.482s] -- The CXX compiler identification is GNU 11.3.0
+[2.483s] -- Detecting C compiler ABI info
+[2.483s] -- Detecting C compiler ABI info - done
+[2.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.483s] -- Detecting C compile features
+[2.483s] -- Detecting C compile features - done
+[2.483s] -- Detecting CXX compiler ABI info
+[2.483s] -- Detecting CXX compiler ABI info - done
+[2.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.483s] -- Detecting CXX compile features
+[2.483s] -- Detecting CXX compile features - done
+[2.484s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.484s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.484s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.484s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.484s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.484s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.638s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.643s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.088s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.238s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.345s] -- Looking for pthread.h
+[7.590s] -- Looking for pthread.h - found
+[7.591s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.883s] -- Found Threads: TRUE  
+[8.104s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.223s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.226s] -- Configured cppcheck include dirs: 
+[8.226s] -- Configured cppcheck exclude dirs and/or files: 
+[8.227s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.227s] -- Configured cpplint exclude dirs and/or files: 
+[8.227s] -- Added test 'lint_cmake' to check CMake code style
+[8.229s] -- Added test 'uncrustify' to check C / C++ code style
+[8.229s] -- Configured uncrustify additional arguments: 
+[8.230s] -- Added test 'xmllint' to check XML markup files
+[8.232s] -- Configuring done
+[8.243s] -- Generating done
+[8.245s] -- Build files have been written to: /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[8.277s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[8.309s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j20 -l20
+[8.429s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[27.450s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[27.460s] compilation terminated.
+[27.461s] gmake[2]: *** [CMakeFiles/multithreaded_executor.dir/build.make:76: CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o] Error 1
+[27.495s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/multithreaded_executor.dir/all] Error 2
+[27.530s] gmake: *** [Makefile:146: all] Error 2
+[28.289s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j20 -l20

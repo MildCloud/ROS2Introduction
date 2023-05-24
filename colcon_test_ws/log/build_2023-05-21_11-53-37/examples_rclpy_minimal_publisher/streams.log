@@ -1,0 +1,25 @@
+[12.233s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[12.829s] running egg_info
+[12.831s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[12.832s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[12.835s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[12.835s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[12.835s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[12.842s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[12.845s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[12.846s] running build
+[12.846s] running build_py
+[12.848s] running install
+[12.848s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.849s]   warnings.warn(
+[12.849s] running install_lib
+[12.853s] running install_data
+[12.859s] running install_egg_info
+[12.864s] removing '/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info' (and everything under it)
+[12.866s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[12.868s] running install_scripts
+[12.921s] Installing publisher_local_function script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.922s] Installing publisher_member_function script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.922s] Installing publisher_old_school script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.923s] writing list of installed files to '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log'
+[13.190s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

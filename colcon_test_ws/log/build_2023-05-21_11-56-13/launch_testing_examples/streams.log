@@ -1,0 +1,20 @@
+[0.938s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/launch_testing/launch_testing_examples': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/install.log --single-version-externally-managed
+[1.085s] running egg_info
+[1.086s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[1.086s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[1.087s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.088s] running install
+[1.088s] running install_lib
+[1.089s] running install_data
+[1.089s] running install_egg_info
+[1.091s] removing '/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info' (and everything under it)
+[1.091s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[1.091s] running install_scripts
+[1.106s] writing list of installed files to '/home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/install.log'
+[1.125s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/launch_testing/launch_testing_examples' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/launch_testing_examples/install.log --single-version-externally-managed

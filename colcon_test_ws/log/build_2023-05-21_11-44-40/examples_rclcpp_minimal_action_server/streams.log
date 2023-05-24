@@ -1,0 +1,61 @@
+[0.091s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_action_server
+[2.498s] -- The C compiler identification is GNU 11.3.0
+[2.500s] -- The CXX compiler identification is GNU 11.3.0
+[2.501s] -- Detecting C compiler ABI info
+[2.503s] -- Detecting C compiler ABI info - done
+[2.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.506s] -- Detecting C compile features
+[2.506s] -- Detecting C compile features - done
+[2.507s] -- Detecting CXX compiler ABI info
+[2.507s] -- Detecting CXX compiler ABI info - done
+[2.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.507s] -- Detecting CXX compile features
+[2.507s] -- Detecting CXX compile features - done
+[2.507s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.508s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.553s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.557s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.565s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.810s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.944s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.948s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.243s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.365s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.871s] -- Looking for pthread.h
+[10.910s] -- Looking for pthread.h - found
+[10.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.791s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.791s] -- Found Threads: TRUE  
+[12.772s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[12.949s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.577s] -- Configured cppcheck include dirs: 
+[13.578s] -- Configured cppcheck exclude dirs and/or files: 
+[13.579s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.580s] -- Configured cpplint exclude dirs and/or files: 
+[13.580s] -- Added test 'lint_cmake' to check CMake code style
+[13.580s] -- Added test 'uncrustify' to check C / C++ code style
+[13.580s] -- Configured uncrustify additional arguments: 
+[13.592s] -- Added test 'xmllint' to check XML markup files
+[13.595s] -- Configuring done
+[13.666s] -- Generating done
+[13.685s] -- Build files have been written to: /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_action_server
+[13.719s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_action_server
+[13.720s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_action_server -- -j20 -l20
+[14.338s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[14.353s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[34.618s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[34.621s] compilation terminated.
+[34.621s] gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] Error 1
+[34.625s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server_not_composable.dir/all] Error 2
+[34.626s] gmake[1]: *** Waiting for unfinished jobs....
+[38.424s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[38.426s] compilation terminated.
+[38.426s] gmake[2]: *** [CMakeFiles/action_server_member_functions.dir/build.make:76: CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o] Error 1
+[38.426s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server_member_functions.dir/all] Error 2
+[38.429s] gmake: *** [Makefile:146: all] Error 2

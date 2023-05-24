@@ -1,0 +1,11 @@
+[01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_02.cpp:6:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kname[m[K’
+    6 |         Node02[34m[K([m[Kstring[01;31m[K [m[K[32m[Kname[m[K): Node(name) {
+      |               [34m[K~[m[K      [01;31m[K^[m[K[32m[K~~~~[m[K
+      |                      [32m[K)[m[K
+[01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_02.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+    9 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/node_02.dir/build.make:76: CMakeFiles/node_02.dir/src/node_02.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_02.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

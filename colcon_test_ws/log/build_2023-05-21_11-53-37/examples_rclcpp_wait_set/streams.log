@@ -1,0 +1,73 @@
+[0.082s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_service:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_guard_conditions:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set -- -j20 -l20
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[5.330s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[5.331s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[5.331s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[5.331s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[5.331s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[5.331s] [ 20%] Built target wait_set_topics_and_timer
+[5.331s] [ 37%] Built target wait_set_talker
+[5.331s] [ 37%] Built target executor_random_order
+[5.331s] [ 45%] Built target static_wait_set
+[5.331s] [ 54%] Built target wait_set
+[5.332s] [ 62%] Built target listener
+[5.332s] [ 70%] Built target thread_safe_wait_set
+[5.332s] [ 79%] Built target wait_set_random_order
+[12.183s] [ 83%] [32m[1mLinking CXX executable wait_set_listener[0m
+[12.825s] [ 83%] Built target wait_set_listener
+[16.814s] [ 87%] [32m[1mLinking CXX shared library libtalker.so[0m
+[17.338s] [ 87%] Built target talker
+[17.467s] [ 91%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[22.743s] [ 95%] [32m[1mLinking CXX executable wait_set_composed[0m
+[23.130s] [ 95%] Built target wait_set_composed
+[26.286s] [100%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[26.656s] [100%] Built target wait_set_topics_with_different_rates
+[26.709s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_service:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_guard_conditions:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set -- -j20 -l20
+[26.866s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_service:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_guard_conditions:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set
+[26.878s] -- Install configuration: ""
+[26.878s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[26.879s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[26.879s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[26.881s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[26.881s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[26.882s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[26.882s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[26.892s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[26.892s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[26.902s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[26.902s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[26.911s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[26.911s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[26.920s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[26.920s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[26.928s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[26.928s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[26.938s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[26.938s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[26.946s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[26.946s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[26.948s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[26.948s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[26.948s] -- Set runtime path of "/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[26.950s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[26.951s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[26.951s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[26.951s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[26.952s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[26.952s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[26.952s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[26.953s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[26.953s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[26.953s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[26.954s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[26.955s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[26.955s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[26.956s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[26.956s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[26.956s] -- Installing: /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[26.960s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/colcon_test_ws/install/launch_testing_examples:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_service:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_guard_conditions:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_wait_set

@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict()}
+[0.001414] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.014301] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.015730] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[0.015859] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp', '--', '-j20', '-l20'], 'cwd': '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'tianshu'), ('GIT_ASKPASS', '/home/tianshu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/tianshu'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-e02f6095-a5c6-465f-838d-e39b00fd611a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianshu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianshu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianshu'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/16659_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/tianshu/.local/bin:/opt/ros/humble/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/miniconda3/bin:/home/tianshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Users/hts18/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/JetBrains/IntelliJ IDEA 2023.1.1/bin:/snap/bin'), ('WT_SESSION', '770308e6-e793-4a25-8f81-0c78e268eaac'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-fa07a897b0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/tianshu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp'), ('CONDA_EXE', '/home/tianshu/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/tianshu/miniconda3'), ('CHROME_BIN', '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'gedit'), ('CMAKE_PREFIX_PATH', '/home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.059970] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099952] (-) TimerEvent: {}
+[0.200375] (-) TimerEvent: {}
+[0.223641] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299542] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.300525] (-) TimerEvent: {}
+[0.301188] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.305411] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.314030] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.323396] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.358409] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.360951] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400646] (-) TimerEvent: {}
+[0.500937] (-) TimerEvent: {}
+[0.601214] (-) TimerEvent: {}
+[0.701543] (-) TimerEvent: {}
+[0.801835] (-) TimerEvent: {}
+[0.902192] (-) TimerEvent: {}
+[1.002538] (-) TimerEvent: {}
+[1.102822] (-) TimerEvent: {}
+[1.203137] (-) TimerEvent: {}
+[1.303427] (-) TimerEvent: {}
+[1.403717] (-) TimerEvent: {}
+[1.504006] (-) TimerEvent: {}
+[1.604295] (-) TimerEvent: {}
+[1.704575] (-) TimerEvent: {}
+[1.804861] (-) TimerEvent: {}
+[1.905152] (-) TimerEvent: {}
+[2.005442] (-) TimerEvent: {}
+[2.105717] (-) TimerEvent: {}
+[2.206162] (-) TimerEvent: {}
+[2.306482] (-) TimerEvent: {}
+[2.406798] (-) TimerEvent: {}
+[2.507084] (-) TimerEvent: {}
+[2.607380] (-) TimerEvent: {}
+[2.707683] (-) TimerEvent: {}
+[2.773635] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.807825] (-) TimerEvent: {}
+[2.872820] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.907954] (-) TimerEvent: {}
+[2.922744] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.922896] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.922930] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.923140] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.923502] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.923557] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.923723] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.925101] (example_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.937541] (example_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.939358] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp\n'}
+[2.981537] (example_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node_02.dir/src/node_02.cpp.o\x1b[0m\n'}
+[3.008076] (-) TimerEvent: {}
+[3.108468] (-) TimerEvent: {}
+[3.208841] (-) TimerEvent: {}
+[3.309152] (-) TimerEvent: {}
+[3.409630] (-) TimerEvent: {}
+[3.510042] (-) TimerEvent: {}
+[3.610386] (-) TimerEvent: {}
+[3.710700] (-) TimerEvent: {}
+[3.811111] (-) TimerEvent: {}
+[3.911537] (-) TimerEvent: {}
+[4.011936] (-) TimerEvent: {}
+[4.112280] (-) TimerEvent: {}
+[4.212724] (-) TimerEvent: {}
+[4.313044] (-) TimerEvent: {}
+[4.331181] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_02.cpp:6:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.331360] (example_cpp) StderrLine: {'line': b'    6 |         Node02\x1b[34m\x1b[K(\x1b[m\x1b[Kstring\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kname\x1b[m\x1b[K): Node(name) {\n'}
+[4.331397] (example_cpp) StderrLine: {'line': b'      |               \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.331424] (example_cpp) StderrLine: {'line': b'      |                      \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.332316] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_02.cpp:9:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[4.332407] (example_cpp) StderrLine: {'line': b'    9 | }\n'}
+[4.332435] (example_cpp) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.332460] (example_cpp) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.413262] (-) TimerEvent: {}
+[4.513690] (-) TimerEvent: {}
+[4.576768] (example_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node_02.dir/build.make:76: CMakeFiles/node_02.dir/src/node_02.cpp.o] Error 1\n'}
+[4.576918] (example_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_02.dir/all] Error 2\n'}
+[4.577003] (example_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.578267] (example_cpp) CommandEnded: {'returncode': 2}
+[4.613768] (-) TimerEvent: {}
+[4.637782] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 2}
+[4.648399] (-) EventReactorShutdown: {}

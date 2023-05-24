@@ -1,0 +1,98 @@
+[0.072s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_subscriber
+[2.485s] -- The C compiler identification is GNU 11.3.0
+[2.485s] -- The CXX compiler identification is GNU 11.3.0
+[2.485s] -- Detecting C compiler ABI info
+[2.485s] -- Detecting C compiler ABI info - done
+[2.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.485s] -- Detecting C compile features
+[2.486s] -- Detecting C compile features - done
+[2.486s] -- Detecting CXX compiler ABI info
+[2.486s] -- Detecting CXX compiler ABI info - done
+[2.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.486s] -- Detecting CXX compile features
+[2.486s] -- Detecting CXX compile features - done
+[2.486s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.486s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.486s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.488s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.491s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.491s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.643s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.649s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.095s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.437s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.117s] -- Looking for pthread.h
+[8.372s] -- Looking for pthread.h - found
+[8.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.635s] -- Found Threads: TRUE  
+[8.948s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[9.112s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.288s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.292s] -- Configured cppcheck include dirs: 
+[9.292s] -- Configured cppcheck exclude dirs and/or files: 
+[9.294s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.294s] -- Configured cpplint exclude dirs and/or files: 
+[9.296s] -- Added test 'lint_cmake' to check CMake code style
+[9.298s] -- Added test 'uncrustify' to check C / C++ code style
+[9.299s] -- Configured uncrustify additional arguments: 
+[9.300s] -- Added test 'xmllint' to check XML markup files
+[9.303s] -- Configuring done
+[9.382s] -- Generating done
+[9.387s] -- Build files have been written to: /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_subscriber
+[9.578s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_subscriber
+[9.579s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[10.256s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[10.266s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[10.269s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[10.301s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[10.342s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[10.349s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[10.351s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[10.441s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[10.449s] [ 37%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[10.451s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[10.472s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[10.473s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[10.485s] [ 54%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[29.681s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[29.691s] compilation terminated.
+[29.692s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_type_adapter.dir/build.make:76: CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o] Error 1
+[29.692s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/subscriber_member_function_with_type_adapter.dir/all] Error 2
+[29.692s] gmake[1]: *** Waiting for unfinished jobs....
+[30.534s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[30.535s] compilation terminated.
+[30.545s] gmake[2]: *** [CMakeFiles/wait_set_subscriber_library.dir/build.make:76: CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o] Error 1
+[30.548s] gmake[2]: *** Waiting for unfinished jobs....
+[31.432s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[31.446s] compilation terminated.
+[31.446s] gmake[2]: *** [CMakeFiles/time_triggered_wait_set_subscriber.dir/build.make:76: CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o] Error 1
+[31.452s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/time_triggered_wait_set_subscriber.dir/all] Error 2
+[32.329s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[32.345s] compilation terminated.
+[32.346s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Error 1
+[32.346s] gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/all] Error 2
+[36.715s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[36.718s] compilation terminated.
+[36.736s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/build.make:76: CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o] Error 1
+[36.750s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/subscriber_member_function_with_topic_statistics.dir/all] Error 2
+[39.466s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[39.469s] compilation terminated.
+[39.469s] gmake[2]: *** [CMakeFiles/subscriber_content_filtering.dir/build.make:76: CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o] Error 1
+[39.469s] gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/subscriber_content_filtering.dir/all] Error 2
+[70.382s] [ 58%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[70.961s] [ 58%] Built target static_wait_set_subscriber
+[71.235s] [ 62%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[71.645s] [ 62%] Built target wait_set_subscriber
+[90.112s] [ 66%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[90.738s] [ 66%] Built target subscriber_member_function
+[91.790s] [ 70%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[91.821s] [ 75%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[92.218s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/wait_set_subscriber_library.dir/all] Error 2
+[92.335s] [ 75%] Built target subscriber_lambda
+[92.341s] [ 75%] Built target subscriber_not_composable
+[92.357s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,135 @@
+[0.022s] Invoking command in '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake /home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp
+[0.133s] -- The C compiler identification is GNU 11.3.0
+[0.339s] -- The CXX compiler identification is GNU 11.3.0
+[0.513s] -- Detecting C compiler ABI info
+[0.631s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.635s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.637s] -- Detecting CXX compiler ABI info
+[0.737s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.741s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.743s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.937s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.018s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.020s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.025s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.080s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.082s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.739s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.347s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.499s] -- Looking for pthread.h
+[3.642s] -- Looking for pthread.h - found
+[3.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.743s] -- Found Threads: TRUE  
+[3.837s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.903s] -- Configured cppcheck include dirs: 
+[3.903s] -- Configured cppcheck exclude dirs and/or files: 
+[3.904s] -- Added test 'lint_cmake' to check CMake code style
+[3.905s] -- Added test 'uncrustify' to check C / C++ code style
+[3.905s] -- Configured uncrustify additional arguments: 
+[3.906s] -- Added test 'xmllint' to check XML markup files
+[3.908s] -- Configuring done
+[3.920s] -- Generating done
+[3.922s] -- Build files have been written to: /home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp
+[3.930s] Invoked command in '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake /home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/rclcpp_test_ws/install/example_cpp
+[3.931s] Invoking command in '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp -- -j20 -l20
+[3.993s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[5.369s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.369s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:6:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcoo[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp[m[K’?
+[5.369s]     6 |     std::shared_ptr<[01;31m[Krclcoo[m[K::Node> node = std::make_shared<rclcoo::Node>("node_01");
+[5.369s]       |                     [01;31m[K^~~~~~[m[K
+[5.369s]       |                     [32m[Krclcpp[m[K
+[5.369s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:6:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.369s]     6 |     std::shared_ptr<rclcoo::Node[01;31m[K>[m[K node = std::make_shared<rclcoo::Node>("node_01");
+[5.369s]       |                                 [01;31m[K^[m[K
+[5.369s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:6:47:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.369s]     6 |     std::shared_ptr<rclcoo::Node> node = std::[01;31m[Kmake_shared<rclcoo::Node>[m[K("node_01");
+[5.369s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.370s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:6:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<rclcoo>(const char [8])[m[K’
+[5.370s]     6 |     std::shared_ptr<rclcoo::Node> node = [01;31m[Kstd::make_shared<rclcoo::Node>("node_01")[m[K;
+[5.370s]       |                                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.371s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.371s]                  from [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[5.371s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[5.371s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[5.371s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.371s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.371s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.371s]                  from [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[5.371s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.371s]     7 |     RCLCPP_INFO(node[01;31m[K->[m[Kget_logger(), "start node_01");
+[5.371s]       |                     [01;31m[K^~[m[K
+[5.371s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.371s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.371s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "start node_01");
+[5.371s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.372s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "start node_01");
+[5.372s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.372s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "start node_01");
+[5.372s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.372s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "start node_01");
+[5.372s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.372s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "start node_01");
+[5.372s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.372s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.372s]                  from [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.372s]     7 |     RCLCPP_INFO(node[01;31m[K->[m[Kget_logger(), "start node_01");
+[5.372s]       |                     [01;31m[K^~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:7:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.372s]     7 |     RCLCPP_INFO(node[01;31m[K->[m[Kget_logger(), "start node_01");
+[5.372s]       |                     [01;31m[K^~[m[K
+[5.372s] [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:8:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(int&)[m[K’
+[5.372s]     8 |     [01;31m[Krclcpp::spin(node)[m[K;
+[5.372s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+[5.372s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.373s]                  from [01m[K/home/tianshu/ROS2Introduction/rclcpp_test_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[5.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[5.373s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[5.373s]       | [01;36m[K^~~~[m[K
+[5.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[5.373s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[5.373s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[5.373s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[5.373s]       | [01;36m[K^~~~[m[K
+[5.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[5.373s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[5.373s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.622s] gmake[2]: *** [CMakeFiles/node_01.dir/build.make:76: CMakeFiles/node_01.dir/src/node_01.cpp.o] Error 1
+[5.622s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_01.dir/all] Error 2
+[5.622s] gmake: *** [Makefile:146: all] Error 2
+[5.624s] Invoked command in '/home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/rclcpp_test_ws/build/example_cpp -- -j20 -l20

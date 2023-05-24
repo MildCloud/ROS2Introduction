@@ -1,0 +1,39 @@
+[2.470s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/topics/pointcloud_publisher': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed
+[5.263s] running egg_info
+[5.264s] creating ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[5.264s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[5.264s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[5.264s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[5.264s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[5.264s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[5.264s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.264s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.264s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.265s] running build
+[5.265s] running build_py
+[5.265s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build
+[5.265s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib
+[5.265s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.265s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.265s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.265s] running install
+[5.265s] running install_lib
+[5.265s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[5.265s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[5.266s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[5.266s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[5.266s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[5.266s] running install_data
+[5.266s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[5.266s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[5.266s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.266s] copying resource/examples_rclpy_pointcloud_publisher -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.267s] copying package.xml -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[5.276s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.276s]   warnings.warn(
+[5.281s] running install_egg_info
+[5.281s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.1-py3.10.egg-info
+[5.281s] running install_scripts
+[5.281s] Installing pointcloud_publisher script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[5.281s] writing list of installed files to '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[5.303s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed

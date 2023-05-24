@@ -1,0 +1,57 @@
+[0.069s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_timer
+[2.482s] -- The C compiler identification is GNU 11.3.0
+[2.482s] -- The CXX compiler identification is GNU 11.3.0
+[2.482s] -- Detecting C compiler ABI info
+[2.482s] -- Detecting C compiler ABI info - done
+[2.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.482s] -- Detecting C compile features
+[2.483s] -- Detecting C compile features - done
+[2.483s] -- Detecting CXX compiler ABI info
+[2.483s] -- Detecting CXX compiler ABI info - done
+[2.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.483s] -- Detecting CXX compile features
+[2.483s] -- Detecting CXX compile features - done
+[2.483s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.483s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.483s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.483s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.483s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.483s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.640s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.645s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.085s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.287s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.348s] -- Looking for pthread.h
+[7.662s] -- Looking for pthread.h - found
+[7.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.901s] -- Found Threads: TRUE  
+[8.102s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.224s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.226s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.226s] -- Configured cppcheck include dirs: 
+[8.226s] -- Configured cppcheck exclude dirs and/or files: 
+[8.228s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.228s] -- Configured cpplint exclude dirs and/or files: 
+[8.229s] -- Added test 'lint_cmake' to check CMake code style
+[8.231s] -- Added test 'uncrustify' to check C / C++ code style
+[8.231s] -- Configured uncrustify additional arguments: 
+[8.232s] -- Added test 'xmllint' to check XML markup files
+[8.234s] -- Configuring done
+[8.248s] -- Generating done
+[8.250s] -- Build files have been written to: /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_timer
+[8.515s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclcpp_minimal_timer
+[8.517s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclcpp_minimal_timer -- -j20 -l20
+[8.744s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[8.747s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[21.071s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[21.076s] compilation terminated.
+[21.088s] gmake[2]: *** [CMakeFiles/timer_member_function.dir/build.make:76: CMakeFiles/timer_member_function.dir/member_function.cpp.o] Error 1
+[21.119s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/timer_member_function.dir/all] Error 2
+[21.124s] gmake[1]: *** Waiting for unfinished jobs....
+[79.870s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[80.289s] [ 75%] Built target timer_lambda
+[80.305s] gmake: *** [Makefile:146: all] Error 2

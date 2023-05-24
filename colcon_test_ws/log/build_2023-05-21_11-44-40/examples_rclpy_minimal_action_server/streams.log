@@ -1,0 +1,55 @@
+[3.393s] Invoking command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/actions/minimal_action_server': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[8.275s] running egg_info
+[8.275s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[8.275s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[8.275s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[8.276s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[8.277s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[8.277s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[8.278s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.278s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.278s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.278s] running build
+[8.278s] running build_py
+[8.278s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build
+[8.278s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib
+[8.278s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.279s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.279s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.279s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.279s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.280s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.280s] copying examples_rclpy_minimal_action_server/server.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.280s] running install
+[8.281s] running install_lib
+[8.281s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.281s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.281s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.281s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.282s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.282s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.282s] copying /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[8.282s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[8.282s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[8.282s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[8.283s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[8.283s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[8.283s] byte-compiling /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[8.283s] running install_data
+[8.283s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[8.284s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[8.284s] creating /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[8.284s] copying resource/examples_rclpy_minimal_action_server -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[8.284s] copying package.xml -> /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[8.284s] running install_egg_info
+[8.284s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.10.egg-info
+[8.284s] running install_scripts
+[8.284s] Installing server script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.285s] Installing server_defer script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.285s] Installing server_not_composable script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.285s] Installing server_queue_goals script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.285s] Installing server_single_goal script to /home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.285s] writing list of installed files to '/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log'
+[8.296s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.296s]   warnings.warn(
+[8.367s] Invoked command in '/home/tianshu/ROS2Introduction/colcon_test_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/tianshu/ROS2Introduction/colcon_test_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/build install --record /home/tianshu/ROS2Introduction/colcon_test_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
