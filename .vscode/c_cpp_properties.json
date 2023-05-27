@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "/opt/ros/humble/**"
+                "/opt/ros/humble/**",
+                "interface_intro_ws/install/example_ros2_interfaces/include/example_ros2_interfaces"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

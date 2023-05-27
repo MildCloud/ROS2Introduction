@@ -1,0 +1,73 @@
+[0.053s] Invoking command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake /home/tianshu/ROS2Introduction/interface_intro_ws/src/example_interfaces_rclcpp -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp
+[0.139s] -- The C compiler identification is GNU 11.3.0
+[0.346s] -- The CXX compiler identification is GNU 11.3.0
+[0.478s] -- Detecting C compiler ABI info
+[0.589s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.595s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.746s] -- Detecting CXX compile features
+[0.746s] -- Detecting CXX compile features - done
+[0.748s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.974s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.054s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.057s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.061s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.126s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.128s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.281s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.380s] -- Looking for pthread.h
+[3.476s] -- Looking for pthread.h - found
+[3.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.579s] -- Found Threads: TRUE  
+[3.680s] -- Found example_ros2_interfaces: 0.0.0 (/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake)
+[3.749s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.794s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.795s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tianshu/ROS2Introduction/interface_intro_ws/src/example_interfaces_rclcpp/include>
+[3.795s] -- Configured cppcheck exclude dirs and/or files: 
+[3.795s] -- Added test 'lint_cmake' to check CMake code style
+[3.795s] -- Added test 'uncrustify' to check C / C++ code style
+[3.795s] -- Configured uncrustify additional arguments: 
+[3.796s] -- Added test 'xmllint' to check XML markup files
+[3.796s] -- Configuring done
+[3.808s] -- Generating done
+[3.810s] -- Build files have been written to: /home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp
+[3.817s] Invoked command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake /home/tianshu/ROS2Introduction/interface_intro_ws/src/example_interfaces_rclcpp -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp
+[3.817s] Invoking command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp -- -j20 -l20
+[3.885s] [ 25%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m
+[3.886s] [ 50%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[5.743s] [ 75%] [32m[1mLinking CXX executable example_interfaces_control_01[0m
+[5.743s] [100%] [32m[1mLinking CXX executable example_interfaces_robot_01[0m
+[5.867s] [100%] Built target example_interfaces_control_01
+[5.867s] [100%] Built target example_interfaces_robot_01
+[5.877s] Invoked command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp -- -j20 -l20
+[5.928s] Invoking command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --install /home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp
+[5.941s] -- Install configuration: ""
+[5.941s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01
+[5.941s] -- Set runtime path of "/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01" to ""
+[5.941s] -- Up-to-date: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01
+[5.941s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_interfaces_rclcpp
+[5.942s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_interfaces_rclcpp
+[5.942s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.sh
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.dsv
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.sh
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.dsv
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.bash
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.sh
+[5.943s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.zsh
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.dsv
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/packages/example_interfaces_rclcpp
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig.cmake
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig-version.cmake
+[5.944s] -- Installing: /home/tianshu/ROS2Introduction/interface_intro_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.xml
+[5.945s] Invoked command in '/home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces:/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/lib:/usr/lib/wsl/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib PYTHONPATH=/home/tianshu/ROS2Introduction/interface_intro_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --install /home/tianshu/ROS2Introduction/interface_intro_ws/build/example_interfaces_rclcpp
