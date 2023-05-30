@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp -- -j20 -l20
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target parameter_basic[0m
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_basic.dir/src/parameter_basic.cpp.o[0m
+[2.478s] [100%] [32m[1mLinking CXX executable parameter_basic[0m
+[2.633s] [100%] Built target parameter_basic
+[2.645s] Invoked command in '/home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --build /home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp -- -j20 -l20
+[2.704s] Invoking command in '/home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --install /home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp
+[2.716s] -- Install configuration: ""
+[2.716s] -- Installing: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameter_basic
+[2.717s] -- Set runtime path of "/home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameter_basic" to ""
+[2.717s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_parameters_rclcpp
+[2.717s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_parameters_rclcpp
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.sh
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.dsv
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.sh
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.dsv
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.bash
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.sh
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.zsh
+[2.718s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.dsv
+[2.718s] -- Installing: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.dsv
+[2.719s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/packages/example_parameters_rclcpp
+[2.719s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig.cmake
+[2.719s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig-version.cmake
+[2.719s] -- Up-to-date: /home/tianshu/ROS2Introduction/para_intro_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.xml
+[2.721s] Invoked command in '/home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/cmake --install /home/tianshu/ROS2Introduction/para_intro_ws/build/example_parameters_rclcpp
