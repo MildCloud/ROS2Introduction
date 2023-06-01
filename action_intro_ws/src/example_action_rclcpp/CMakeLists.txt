@@ -28,8 +28,8 @@ ament_target_dependencies(
 install(TARGETS action_robot_01
   DESTINATION lib/${PROJECT_NAME})
 
-  add_executable(action_control_01 
-  src/action_control_01.cpp
+add_executable(action_control_01 
+src/action_control_01.cpp
 )
 target_include_directories(action_control_01 PUBLIC
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -42,7 +42,8 @@ ament_target_dependencies(
   "robot_control_interface"
   "example_interfaces"
 )
-
+install(TARGETS action_control_01
+DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -17,7 +17,7 @@ class ActionRobot01 : public rclcpp::Node {
         void handle_accepted(const std::shared_ptr<GoalHandleMoveRobot> goal_handle);
 };
 
-explicit ActionRobot01::ActionRobot01(std::string name) : Node(name) {
+ActionRobot01::ActionRobot01(std::string name) : Node(name) {
     using namespace std::placeholders;
     RCLCPP_INFO(this->get_logger(), "%s node starts", name.c_str());
     this->action_server_ = rclcpp_action::create_server<MoveRobot>(

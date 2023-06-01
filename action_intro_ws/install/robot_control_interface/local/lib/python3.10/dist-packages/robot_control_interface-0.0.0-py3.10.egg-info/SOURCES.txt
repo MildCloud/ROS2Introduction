@@ -4,3 +4,5 @@ robot_control_interface.egg-info/PKG-INFO
 robot_control_interface.egg-info/SOURCES.txt
 robot_control_interface.egg-info/dependency_links.txt
 robot_control_interface.egg-info/top_level.txt
+robot_control_interface/action/__init__.py
+robot_control_interface/action/_move_robot.py

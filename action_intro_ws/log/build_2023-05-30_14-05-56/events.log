@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000114] (-) JobUnselected: {'identifier': 'example_action_rclcpp'}
-[0.000133] (-) JobUnselected: {'identifier': 'robot_control_interface'}
-[0.000143] (-) EventReactorShutdown: {}

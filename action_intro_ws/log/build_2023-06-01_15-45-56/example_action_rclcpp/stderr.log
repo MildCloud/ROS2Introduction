@@ -1,0 +1,4 @@
+[01m[K/home/tianshu/ROS2Introduction/action_intro_ws/src/example_action_rclcpp/src/action_control_01.cpp:[m[K In member function ‘[01m[Kvoid ActionControl01::result_callback(const rclcpp_action::ClientGoalHandle<robot_control_interface::action::MoveRobot>::WrappedResult&)[m[K’:
+[01m[K/home/tianshu/ROS2Introduction/action_intro_ws/src/example_action_rclcpp/src/action_control_01.cpp:72:28:[m[K [01;35m[Kwarning: [m[Kattribute ‘[01m[Kfallthrough[m[K’ not preceding a case label or default label
+   72 |             [[fallthrough]][01;35m[K;[m[K
+      |                            [01;35m[K^[m[K
