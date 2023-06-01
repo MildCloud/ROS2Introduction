@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "functional": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "robot_control_interface": "cpp"
     }
 }

@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_control_interface",
+  "non_idl_tuples": [
+    "/home/tianshu/ROS2Introduction/action_intro_ws/src/robot_control_interface:action/MoveRobot.action"
+  ]
+}
