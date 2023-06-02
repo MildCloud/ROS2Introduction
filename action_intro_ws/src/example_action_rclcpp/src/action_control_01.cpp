@@ -42,6 +42,7 @@ void ActionControl01::send_goal() {
 }
 
 void ActionControl01::goal_response_callback(GoalHandlerMoveRobot::SharedPtr goal_handle) {
+    // Called first after log "Sending goal"
     if (!goal_handle) {
         RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
     }
@@ -51,10 +52,13 @@ void ActionControl01::goal_response_callback(GoalHandlerMoveRobot::SharedPtr goa
 }
 
 void ActionControl01::feedback_callback(GoalHandlerMoveRobot::SharedPtr, const std::shared_ptr<const MoveRobot::Feedback> feedback) {
+    // Called seconed and continuously every 500ms?
+    // FIXME change 500 to 10000 will not change performace
     RCLCPP_INFO(this->get_logger(), "Feedback current pose: %f", feedback->pose);
 }
 
 void ActionControl01::result_callback(const GoalHandlerMoveRobot::WrappedResult& result) {
+    // Called last
     switch (result.code) {
       case rclcpp_action::ResultCode::SUCCEEDED:
         break;

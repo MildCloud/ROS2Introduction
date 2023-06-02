@@ -32,7 +32,7 @@ rclcpp_action::GoalResponse ActionRobot01::handle_goal(const rclcpp_action::Goal
         RCLCPP_WARN(this->get_logger(), "Too far from the goal, reject");
         return rclcpp_action::GoalResponse::REJECT;
     }
-    RCLCPP_INFO(this->get_logger(), "Distance is pratical");
+    RCLCPP_INFO(this->get_logger(), "Distance is practical");
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
 }
 
@@ -70,6 +70,7 @@ void ActionRobot01::execute_move(const std::shared_ptr<GoalHandleMoveRobot> goal
 }
 
 void ActionRobot01::handle_accepted(const std::shared_ptr<GoalHandleMoveRobot> goal_handle) {
+    // Handle the execution
     std::thread{std::bind(&ActionRobot01::execute_move, this, std::placeholders::_1), goal_handle}.detach();
 }
 
