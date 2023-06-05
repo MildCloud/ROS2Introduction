@@ -1,4 +1,5 @@
 /home/tianshu/ROS2Introduction/launch_intro_ws/install/robot_startup/share/robot_startup/launch/example_action.launch.py
+/home/tianshu/ROS2Introduction/launch_intro_ws/install/robot_startup/share/robot_startup/launch/example_param_rclcpp.launch.py
 /home/tianshu/ROS2Introduction/launch_intro_ws/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
 /home/tianshu/ROS2Introduction/launch_intro_ws/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
 /home/tianshu/ROS2Introduction/launch_intro_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh

@@ -10,6 +10,6 @@ def generate_launch_description():
     return launch_description
 
 """----------------Usage--------------"""
-# source ../../chapt5/chapt5_ws/install/setup.bash
+# source ../action_intro_ws/install/setup.bash
 # source install/setup.bash
 # ros2 launch robot_startup example_action.launch.py
