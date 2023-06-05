@@ -1,0 +1,9 @@
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/uninstall.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/robot_startup_uninstall.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/test.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/edit_cache.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/rebuild_cache.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/list_install_components.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/install.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/install/local.dir
+/home/tianshu/ROS2Introduction/launch_intro_ws/build/robot_startup/CMakeFiles/install/strip.dir
