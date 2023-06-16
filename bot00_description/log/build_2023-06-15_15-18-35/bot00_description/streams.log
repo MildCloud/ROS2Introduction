@@ -1,0 +1,21 @@
+[0.459s] Invoking command in '/home/tianshu/ROS2Introduction/bot00_description': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.620s] writing build/bot00_description/bot00_description.egg-info/PKG-INFO
+[0.620s] writing dependency_links to build/bot00_description/bot00_description.egg-info/dependency_links.txt
+[0.620s] writing entry points to build/bot00_description/bot00_description.egg-info/entry_points.txt
+[0.621s] writing requirements to build/bot00_description/bot00_description.egg-info/requires.txt
+[0.621s] writing top-level names to build/bot00_description/bot00_description.egg-info/top_level.txt
+[0.622s] reading manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.623s] writing manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.623s] running build
+[0.623s] running build_py
+[0.623s] running install
+[0.623s] running install_lib
+[0.624s] running install_data
+[0.624s] copying urdf/urdf_intro.urdf -> /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/share/bot00_description/urdf
+[0.625s] running install_egg_info
+[0.626s] removing '/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages/bot00_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.626s] Copying build/bot00_description/bot00_description.egg-info to /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages/bot00_description-0.0.0-py3.10.egg-info
+[0.627s] running install_scripts
+[0.642s] writing list of installed files to '/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log'
+[0.658s] Invoked command in '/home/tianshu/ROS2Introduction/bot00_description' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed
