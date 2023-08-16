@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.000233] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.013770] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.013964] (example_topic_rclcpp) Command: {'cmd': ['/home/tianshu/miniconda3/bin/cmake', '/home/tianshu/ROS2Introduction/topic_intro_ws/src/example_topic_rclcpp', '-DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp'], 'cwd': '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'tianshu'), ('GIT_ASKPASS', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/wsl/lib:/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tianshu'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/tianshu/ROS2Introduction'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c1fbba2-efa3-42be-9f69-37238bacf6f1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianshu'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/587_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/tianshu/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/miniconda3/bin:/home/tianshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/MingW(x86_64-13.1.0-release-posix-seh-msvcrt-rt_v11-rev1)/mingw64/bin:/mnt/c/Program Files/Bandizip:/mnt/c/Users/hts18/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/JetBrains/IntelliJ IDEA 2023.1.1/bin:/mnt/c/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-005e378273.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/tianshu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp'), ('CONDA_EXE', '/home/tianshu/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/tianshu/miniconda3'), ('CHROME_BIN', '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'gedit'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098660] (-) TimerEvent: {}
+[0.199096] (-) TimerEvent: {}
+[0.238163] (example_topic_rclcpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.4.0\n'}
+[0.299242] (-) TimerEvent: {}
+[0.399513] (-) TimerEvent: {}
+[0.499905] (-) TimerEvent: {}
+[0.579043] (example_topic_rclcpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.4.0\n'}
+[0.600023] (-) TimerEvent: {}
+[0.700300] (-) TimerEvent: {}
+[0.800594] (-) TimerEvent: {}
+[0.824243] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.900703] (-) TimerEvent: {}
+[0.948622] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.956495] (example_topic_rclcpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.958644] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.959303] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962721] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.000814] (-) TimerEvent: {}
+[1.100499] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.100901] (-) TimerEvent: {}
+[1.106740] (example_topic_rclcpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.106969] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.107275] (example_topic_rclcpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.110547] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.201145] (-) TimerEvent: {}
+[1.301484] (-) TimerEvent: {}
+[1.401877] (-) TimerEvent: {}
+[1.502272] (-) TimerEvent: {}
+[1.602640] (-) TimerEvent: {}
+[1.703018] (-) TimerEvent: {}
+[1.803353] (-) TimerEvent: {}
+[1.903728] (-) TimerEvent: {}
+[2.004060] (-) TimerEvent: {}
+[2.104357] (-) TimerEvent: {}
+[2.204740] (-) TimerEvent: {}
+[2.305080] (-) TimerEvent: {}
+[2.405407] (-) TimerEvent: {}
+[2.505834] (-) TimerEvent: {}
+[2.606351] (-) TimerEvent: {}
+[2.706916] (-) TimerEvent: {}
+[2.807460] (-) TimerEvent: {}
+[2.907804] (-) TimerEvent: {}
+[3.008059] (-) TimerEvent: {}
+[3.052692] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.108169] (-) TimerEvent: {}
+[3.108823] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.208280] (-) TimerEvent: {}
+[3.224067] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.227727] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.233415] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.247055] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.261982] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.308425] (-) TimerEvent: {}
+[3.310598] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.311980] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.408586] (-) TimerEvent: {}
+[3.509210] (-) TimerEvent: {}
+[3.609792] (-) TimerEvent: {}
+[3.710329] (-) TimerEvent: {}
+[3.810682] (-) TimerEvent: {}
+[3.911028] (-) TimerEvent: {}
+[4.011369] (-) TimerEvent: {}
+[4.111743] (-) TimerEvent: {}
+[4.128261] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.211862] (-) TimerEvent: {}
+[4.312150] (-) TimerEvent: {}
+[4.412459] (-) TimerEvent: {}
+[4.512729] (-) TimerEvent: {}
+[4.613003] (-) TimerEvent: {}
+[4.713268] (-) TimerEvent: {}
+[4.813540] (-) TimerEvent: {}
+[4.913809] (-) TimerEvent: {}
+[4.918924] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.013960] (-) TimerEvent: {}
+[5.114232] (-) TimerEvent: {}
+[5.214541] (-) TimerEvent: {}
+[5.314844] (-) TimerEvent: {}
+[5.415150] (-) TimerEvent: {}
+[5.515441] (-) TimerEvent: {}
+[5.615715] (-) TimerEvent: {}
+[5.716013] (-) TimerEvent: {}
+[5.816443] (-) TimerEvent: {}
+[5.916784] (-) TimerEvent: {}
+[6.017084] (-) TimerEvent: {}
+[6.117486] (-) TimerEvent: {}
+[6.217842] (-) TimerEvent: {}
+[6.318173] (-) TimerEvent: {}
+[6.418584] (-) TimerEvent: {}
+[6.468289] (example_topic_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.478480] (example_topic_rclcpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.518726] (-) TimerEvent: {}
+[6.619079] (-) TimerEvent: {}
+[6.630528] (example_topic_rclcpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.631455] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.719223] (-) TimerEvent: {}
+[6.758750] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.819059] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.819235] (-) TimerEvent: {}
+[6.819752] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.819849] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.820580] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.821210] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.821291] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.822079] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.824612] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configuring done (6.8s)\n'}
+[6.834738] (example_topic_rclcpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.836226] (example_topic_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp\n'}
+[6.850135] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[6.850977] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[6.851969] (example_topic_rclcpp) Command: {'cmd': ['/home/tianshu/miniconda3/bin/cmake', '--build', '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp', '--', '-j20', '-l20'], 'cwd': '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'tianshu'), ('GIT_ASKPASS', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/wsl/lib:/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tianshu'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/tianshu/ROS2Introduction'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c1fbba2-efa3-42be-9f69-37238bacf6f1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianshu'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/587_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/tianshu/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/miniconda3/bin:/home/tianshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/MingW(x86_64-13.1.0-release-posix-seh-msvcrt-rt_v11-rev1)/mingw64/bin:/mnt/c/Program Files/Bandizip:/mnt/c/Users/hts18/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/JetBrains/IntelliJ IDEA 2023.1.1/bin:/mnt/c/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-005e378273.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/tianshu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp'), ('CONDA_EXE', '/home/tianshu/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/tianshu/miniconda3'), ('CHROME_BIN', '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'gedit'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.912457] (example_topic_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o\x1b[0m\n'}
+[6.913083] (example_topic_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o\x1b[0m\n'}
+[6.919412] (-) TimerEvent: {}
+[7.019797] (-) TimerEvent: {}
+[7.120213] (-) TimerEvent: {}
+[7.220511] (-) TimerEvent: {}
+[7.320796] (-) TimerEvent: {}
+[7.421148] (-) TimerEvent: {}
+[7.521496] (-) TimerEvent: {}
+[7.621790] (-) TimerEvent: {}
+[7.722124] (-) TimerEvent: {}
+[7.822459] (-) TimerEvent: {}
+[7.922827] (-) TimerEvent: {}
+[8.023306] (-) TimerEvent: {}
+[8.123649] (-) TimerEvent: {}
+[8.224004] (-) TimerEvent: {}
+[8.324329] (-) TimerEvent: {}
+[8.424767] (-) TimerEvent: {}
+[8.525094] (-) TimerEvent: {}
+[8.625397] (-) TimerEvent: {}
+[8.725736] (-) TimerEvent: {}
+[8.826037] (-) TimerEvent: {}
+[8.926348] (-) TimerEvent: {}
+[9.026641] (-) TimerEvent: {}
+[9.126941] (-) TimerEvent: {}
+[9.227331] (-) TimerEvent: {}
+[9.327623] (-) TimerEvent: {}
+[9.427941] (-) TimerEvent: {}
+[9.528260] (-) TimerEvent: {}
+[9.628580] (-) TimerEvent: {}
+[9.728968] (-) TimerEvent: {}
+[9.829266] (-) TimerEvent: {}
+[9.929580] (-) TimerEvent: {}
+[9.984651] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable topic_publisher_01\x1b[0m\n'}
+[10.029710] (-) TimerEvent: {}
+[10.130011] (-) TimerEvent: {}
+[10.230360] (-) TimerEvent: {}
+[10.239971] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] Built target topic_publisher_01\n'}
+[10.330549] (-) TimerEvent: {}
+[10.430935] (-) TimerEvent: {}
+[10.531215] (-) TimerEvent: {}
+[10.631659] (-) TimerEvent: {}
+[10.731958] (-) TimerEvent: {}
+[10.832270] (-) TimerEvent: {}
+[10.932560] (-) TimerEvent: {}
+[11.032843] (-) TimerEvent: {}
+[11.133159] (-) TimerEvent: {}
+[11.233454] (-) TimerEvent: {}
+[11.333778] (-) TimerEvent: {}
+[11.434081] (-) TimerEvent: {}
+[11.534417] (-) TimerEvent: {}
+[11.634710] (-) TimerEvent: {}
+[11.735221] (-) TimerEvent: {}
+[11.835538] (-) TimerEvent: {}
+[11.935846] (-) TimerEvent: {}
+[12.036157] (-) TimerEvent: {}
+[12.136473] (-) TimerEvent: {}
+[12.236757] (-) TimerEvent: {}
+[12.337067] (-) TimerEvent: {}
+[12.437503] (-) TimerEvent: {}
+[12.537792] (-) TimerEvent: {}
+[12.638173] (-) TimerEvent: {}
+[12.738636] (-) TimerEvent: {}
+[12.813751] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_subscribe_01\x1b[0m\n'}
+[12.838767] (-) TimerEvent: {}
+[12.939096] (-) TimerEvent: {}
+[13.039488] (-) TimerEvent: {}
+[13.129547] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] Built target topic_subscribe_01\n'}
+[13.136882] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[13.139568] (-) TimerEvent: {}
+[13.220711] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'install'}
+[13.239699] (-) TimerEvent: {}
+[13.247197] (example_topic_rclcpp) Command: {'cmd': ['/home/tianshu/miniconda3/bin/cmake', '--install', '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp'], 'cwd': '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'tianshu'), ('GIT_ASKPASS', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/wsl/lib:/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tianshu'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/tianshu/ROS2Introduction'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6c1fbba2-efa3-42be-9f69-37238bacf6f1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianshu'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/587_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/tianshu/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/miniconda3/bin:/home/tianshu/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/MingW(x86_64-13.1.0-release-posix-seh-msvcrt-rt_v11-rev1)/mingw64/bin:/mnt/c/Program Files/Bandizip:/mnt/c/Users/hts18/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/JetBrains/IntelliJ IDEA 2023.1.1/bin:/mnt/c/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-005e378273.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/tianshu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianshu/ROS2Introduction/topic_intro_ws/build/example_topic_rclcpp'), ('CONDA_EXE', '/home/tianshu/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/tianshu/miniconda3'), ('CHROME_BIN', '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'gedit'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.280854] (example_topic_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.281276] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp\n'}
+[13.281474] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp\n'}
+[13.281653] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh\n'}
+[13.281773] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv\n'}
+[13.281818] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh\n'}
+[13.281954] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv\n'}
+[13.281994] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash\n'}
+[13.282060] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh\n'}
+[13.282191] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh\n'}
+[13.282231] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv\n'}
+[13.282266] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv\n'}
+[13.282334] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp\n'}
+[13.282542] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake\n'}
+[13.282679] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake\n'}
+[13.282718] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml\n'}
+[13.282872] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01\n'}
+[13.283572] (example_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""\n'}
+[13.283686] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01\n'}
+[13.285712] (example_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tianshu/ROS2Introduction/topic_intro_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""\n'}
+[13.289516] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[13.339790] (-) TimerEvent: {}
+[13.379811] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 0}
+[13.380550] (-) EventReactorShutdown: {}
