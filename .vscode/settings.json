@@ -3,5 +3,6 @@
         "functional": "cpp",
         "chrono": "cpp",
         "robot_control_interface": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": false
 }
