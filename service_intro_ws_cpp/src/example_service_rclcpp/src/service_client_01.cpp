@@ -26,6 +26,7 @@ void ServiceClient01::send_request(int a, int b)
             RCLCPP_ERROR(this->get_logger(), "interrupted while waiting for service");
             return;
         }
+        RCLCPP_INFO(this->get_logger(), "wait for server");
     }
     auto request = std::make_shared<example_interfaces::srv::AddTwoInts_Request>();
     request->a = a;

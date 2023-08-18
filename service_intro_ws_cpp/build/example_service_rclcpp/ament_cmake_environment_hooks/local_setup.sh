@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/tianshu/ROS2Introduction/service_intro_ws/install/example_service_rclcpp"}
+: ${AMENT_CURRENT_PREFIX:="/home/tianshu/ROS2Introduction/service_intro_ws_cpp/install/example_service_rclcpp"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

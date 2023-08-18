@@ -1,0 +1,25 @@
+[0.391s] Invoking command in '/home/tianshu/ROS2Introduction/service_intro_ws_py/src/example_service_rclpy': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/prefix_override:/home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/build install --record /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/install.log --single-version-externally-managed
+[0.530s] running egg_info
+[0.532s] writing ../../build/example_service_rclpy/example_service_rclpy.egg-info/PKG-INFO
+[0.532s] writing dependency_links to ../../build/example_service_rclpy/example_service_rclpy.egg-info/dependency_links.txt
+[0.532s] writing entry points to ../../build/example_service_rclpy/example_service_rclpy.egg-info/entry_points.txt
+[0.532s] writing requirements to ../../build/example_service_rclpy/example_service_rclpy.egg-info/requires.txt
+[0.532s] writing top-level names to ../../build/example_service_rclpy/example_service_rclpy.egg-info/top_level.txt
+[0.532s] reading manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[0.533s] writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[0.533s] running build
+[0.533s] running build_py
+[0.533s] copying example_service_rclpy/service_client_02.py -> /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/build/lib/example_service_rclpy
+[0.533s] running install
+[0.533s] running install_lib
+[0.534s] copying /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/build/lib/example_service_rclpy/service_client_02.py -> /home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy
+[0.534s] byte-compiling /home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy/service_client_02.py to service_client_02.cpython-310.pyc
+[0.534s] running install_data
+[0.535s] running install_egg_info
+[0.536s] removing '/home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info' (and everything under it)
+[0.536s] Copying ../../build/example_service_rclpy/example_service_rclpy.egg-info to /home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info
+[0.536s] running install_scripts
+[0.552s] Installing service_client_02 script to /home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/example_service_rclpy
+[0.552s] Installing service_server_02 script to /home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/example_service_rclpy
+[0.553s] writing list of installed files to '/home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/install.log'
+[0.573s] Invoked command in '/home/tianshu/ROS2Introduction/service_intro_ws_py/src/example_service_rclpy' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/prefix_override:/home/tianshu/ROS2Introduction/service_intro_ws_py/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/build install --record /home/tianshu/ROS2Introduction/service_intro_ws_py/build/example_service_rclpy/install.log --single-version-externally-managed
