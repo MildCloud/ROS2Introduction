@@ -27,6 +27,7 @@ install(TARGETS example_interfaces_robot_01
 
 
 add_executable(example_interfaces_control_01 src/example_interfaces_control_01.cpp)
+# target part is different from normal nodes
 target_include_directories(example_interfaces_control_01 PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)

@@ -1,0 +1,21 @@
+[0.462s] Invoking command in '/home/tianshu/ROS2Introduction/para_intro_ws_py/src/example_parameters_rclpy': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/prefix_override:/home/tianshu/ROS2Introduction/para_intro_ws_py/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/build install --record /home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/install.log --single-version-externally-managed
+[0.644s] running egg_info
+[0.644s] writing ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/dependency_links.txt
+[0.645s] writing entry points to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/entry_points.txt
+[0.645s] writing requirements to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/requires.txt
+[0.645s] writing top-level names to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/top_level.txt
+[0.646s] reading manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[0.647s] writing manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] running install
+[0.647s] running install_lib
+[0.648s] running install_data
+[0.648s] running install_egg_info
+[0.649s] removing '/home/tianshu/ROS2Introduction/para_intro_ws_py/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy-0.0.0-py3.10.egg-info' (and everything under it)
+[0.650s] Copying ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info to /home/tianshu/ROS2Introduction/para_intro_ws_py/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy-0.0.0-py3.10.egg-info
+[0.650s] running install_scripts
+[0.672s] Installing parameters_basic script to /home/tianshu/ROS2Introduction/para_intro_ws_py/install/example_parameters_rclpy/lib/example_parameters_rclpy
+[0.672s] writing list of installed files to '/home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/install.log'
+[0.689s] Invoked command in '/home/tianshu/ROS2Introduction/para_intro_ws_py/src/example_parameters_rclpy' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/prefix_override:/home/tianshu/ROS2Introduction/para_intro_ws_py/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/build install --record /home/tianshu/ROS2Introduction/para_intro_ws_py/build/example_parameters_rclpy/install.log --single-version-externally-managed

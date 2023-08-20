@@ -4,9 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "/opt/ros/humble/**",
-                "interface_intro_ws/install/example_ros2_interfaces/include/example_ros2_interfaces",
-                "action_intro_ws/install/robot_control_interface/include/**",
-                "action_intro_ws/src/example_action_rclcpp/include/**"
+                "interface_intro_ws/install/example_ros2_interfaces/include/example_ros2_interfaces"
+                // "action_intro_ws/install/robot_control_interface/include/**",
+                // "action_intro_ws/src/example_action_rclcpp/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
