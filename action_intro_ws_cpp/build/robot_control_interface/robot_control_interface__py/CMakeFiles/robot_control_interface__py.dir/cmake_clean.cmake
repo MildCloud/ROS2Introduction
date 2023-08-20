@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "../rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_c.c"
-  "../rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "../rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_introspection_c.c"
-  "../rosidl_generator_py/robot_control_interface/action/__init__.py"
-  "../rosidl_generator_py/robot_control_interface/action/_move_robot.py"
-  "../rosidl_generator_py/robot_control_interface/action/_move_robot_s.c"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_c.c"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/action/__init__.py"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/action/_move_robot.py"
+  "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface/rosidl_generator_py/robot_control_interface/action/_move_robot_s.c"
   "CMakeFiles/robot_control_interface__py"
 )
 

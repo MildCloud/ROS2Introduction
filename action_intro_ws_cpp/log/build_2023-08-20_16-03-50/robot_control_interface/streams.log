@@ -1,0 +1,230 @@
+[0.019s] Invoking command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake /home/tianshu/ROS2Introduction/action_intro_ws_cpp/src/robot_control_interface -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface
+[0.285s] -- The C compiler identification is GNU 10.4.0
+[1.096s] -- The CXX compiler identification is GNU 10.4.0
+[1.612s] -- Detecting C compiler ABI info
+[1.837s] -- Detecting C compiler ABI info - done
+[1.846s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.848s] -- Detecting C compile features
+[1.848s] -- Detecting C compile features - done
+[1.851s] -- Detecting CXX compiler ABI info
+[2.120s] -- Detecting CXX compiler ABI info - done
+[2.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.129s] -- Detecting CXX compile features
+[2.129s] -- Detecting CXX compile features - done
+[2.134s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.676s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.764s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.772s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.310s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.721s] -- Found PythonInterp: /home/tianshu/miniconda3/bin/python3 (found suitable version "3.9.16", minimum required is "3.6") 
+[6.723s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.762s] -- Found PythonLibs: /home/tianshu/miniconda3/lib/libpython3.9.so (found suitable version "3.9.16", minimum required is "3.5") 
+[6.762s] -- Using PYTHON_EXECUTABLE: /home/tianshu/miniconda3/bin/python3
+[6.762s] -- Using PYTHON_INCLUDE_DIRS: /home/tianshu/miniconda3/include/python3.9
+[6.762s] -- Using PYTHON_LIBRARIES: /home/tianshu/miniconda3/lib/libpython3.9.so
+[6.799s] -- Found PythonExtra: .so  
+[7.177s] -- Using numpy include directory: /home/tianshu/miniconda3/lib/python3.9/site-packages/numpy/core/include
+[7.188s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.207s] -- Added test 'lint_cmake' to check CMake code style
+[7.208s] -- Added test 'xmllint' to check XML markup files
+[7.210s] -- Configuring done (7.2s)
+[7.251s] -- Generating done (0.0s)
+[7.255s] -- Build files have been written to: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface
+[7.267s] Invoked command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake /home/tianshu/ROS2Introduction/action_intro_ws_cpp/src/robot_control_interface -DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface
+[7.268s] Invoking command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake --build /home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface -- -j20 -l20
+[7.359s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.378s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.386s] [  6%] Built target ament_cmake_python_copy_robot_control_interface
+[7.650s] running egg_info
+[7.651s] creating robot_control_interface.egg-info
+[7.651s] writing robot_control_interface.egg-info/PKG-INFO
+[7.652s] writing dependency_links to robot_control_interface.egg-info/dependency_links.txt
+[7.652s] writing top-level names to robot_control_interface.egg-info/top_level.txt
+[7.652s] writing manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[7.662s] reading manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[7.663s] writing manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[7.698s] [  6%] Built target ament_cmake_python_build_robot_control_interface_egg
+[7.802s] [  6%] Built target robot_control_interface__cpp
+[7.819s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.819s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.820s] [ 16%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interface/action/detail/move_robot__functions.c.o[0m
+[7.821s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.997s] [ 22%] [32m[1mLinking C shared library librobot_control_interface__rosidl_generator_c.so[0m
+[8.172s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_control_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interface/action/move_robot__type_support.cpp.o[0m
+[8.176s] [ 25%] Built target robot_control_interface__rosidl_generator_c
+[8.193s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.197s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.198s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.205s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_control_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interface/action/detail/move_robot__type_support.cpp.o[0m
+[8.249s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_control_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interface/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[8.596s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_control_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interface/action/move_robot__type_support.cpp.o[0m
+[8.676s] [ 48%] [32m[1mLinking CXX shared library librobot_control_interface__rosidl_typesupport_c.so[0m
+[8.695s] [ 51%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interface/action/detail/move_robot__type_support.c.o[0m
+[8.698s] [ 54%] [32mBuilding CXX object CMakeFiles/robot_control_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interface/action/detail/move_robot__type_support_c.cpp.o[0m
+[8.757s] [ 58%] [32m[1mLinking CXX shared library librobot_control_interface__rosidl_typesupport_cpp.so[0m
+[8.765s] [ 61%] [32m[1mLinking C shared library librobot_control_interface__rosidl_typesupport_introspection_c.so[0m
+[8.838s] [ 61%] Built target robot_control_interface__rosidl_typesupport_c
+[8.898s] [ 64%] [32m[1mLinking CXX shared library librobot_control_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.913s] [ 64%] Built target robot_control_interface__rosidl_typesupport_introspection_c
+[8.925s] [ 64%] Built target robot_control_interface__rosidl_typesupport_cpp
+[9.038s] [ 67%] [32m[1mLinking CXX shared library librobot_control_interface__rosidl_typesupport_fastrtps_c.so[0m
+[9.051s] [ 70%] [32m[1mLinking CXX shared library librobot_control_interface__rosidl_typesupport_introspection_cpp.so[0m
+[9.085s] [ 70%] Built target robot_control_interface__rosidl_typesupport_fastrtps_cpp
+[9.258s] [ 70%] Built target robot_control_interface__rosidl_typesupport_fastrtps_c
+[9.270s] [ 70%] Built target robot_control_interface__rosidl_typesupport_introspection_cpp
+[9.334s] [ 70%] Built target robot_control_interface
+[9.377s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.036s] [ 74%] Built target robot_control_interface__py
+[10.084s] [ 77%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interface/action/_move_robot_s.c.o[0m
+[10.221s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interface/librobot_control_interface__rosidl_generator_py.so[0m
+[10.396s] [ 80%] Built target robot_control_interface__rosidl_generator_py
+[10.442s] [ 83%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[10.445s] [ 87%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.447s] [ 90%] [32mBuilding C object CMakeFiles/robot_control_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.567s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interface/robot_control_interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so[0m
+[10.573s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interface/robot_control_interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so[0m
+[10.575s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interface/robot_control_interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so[0m
+[10.725s] [100%] Built target robot_control_interface__rosidl_typesupport_introspection_c__pyext
+[10.727s] [100%] Built target robot_control_interface__rosidl_typesupport_c__pyext
+[10.763s] [100%] Built target robot_control_interface__rosidl_typesupport_fastrtps_c__pyext
+[10.777s] Invoked command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake --build /home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface -- -j20 -l20
+[11.327s] Invoking command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake --install /home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface
+[11.360s] -- Install configuration: ""
+[11.361s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/ament_index/resource_index/rosidl_interfaces/robot_control_interface
+[11.361s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.361s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg
+[11.361s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg/rosidl_generator_c__visibility_control.h
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/move_robot.h
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__type_support.h
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__functions.c
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__struct.h
+[11.362s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__functions.h
+[11.363s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/library_path.sh
+[11.363s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/library_path.dsv
+[11.363s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_generator_c.so
+[11.363s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_generator_c.so" to ""
+[11.363s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_fastrtps_c.so
+[11.364s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.364s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+[11.364s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__type_support.c
+[11.365s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_introspection_c.so
+[11.365s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_introspection_c.so" to ""
+[11.365s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_c.so
+[11.365s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_c.so" to ""
+[11.366s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.366s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.366s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.366s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__struct.hpp
+[11.366s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__builder.hpp
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__traits.hpp
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/move_robot.hpp
+[11.367s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.367s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.367s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.367s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/dds_fastrtps
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[11.367s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_fastrtps_cpp.so
+[11.368s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.368s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface
+[11.368s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action
+[11.370s] -- Up-to-date: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail
+[11.370s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[11.370s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/include/robot_control_interface/robot_control_interface/action/detail/move_robot__type_support.cpp
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_introspection_cpp.so
+[11.371s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_cpp.so
+[11.371s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_typesupport_cpp.so" to ""
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/pythonpath.sh
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/pythonpath.dsv
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface-0.0.0-py3.10.egg-info
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface-0.0.0-py3.10.egg-info/top_level.txt
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/librobot_control_interface__rosidl_generator_py.so
+[11.371s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_introspection_c.c
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/_robot_control_interface_s.ep.rosidl_typesupport_c.c
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/__init__.py
+[11.372s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action
+[11.373s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action/_move_robot.py
+[11.373s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action/_move_robot_s.c
+[11.373s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action/__init__.py
+[11.433s] Listing '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface'...
+[11.433s] Compiling '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/__init__.py'...
+[11.433s] Listing '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action'...
+[11.433s] Compiling '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action/__init__.py'...
+[11.434s] Compiling '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/action/_move_robot.py'...
+[11.437s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[11.438s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so" to ""
+[11.438s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+[11.438s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so" to ""
+[11.438s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[11.438s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/local/lib/python3.10/dist-packages/robot_control_interface/robot_control_interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so" to ""
+[11.438s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_generator_py.so
+[11.439s] -- Set runtime path of "/home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/lib/librobot_control_interface__rosidl_generator_py.so" to ""
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/action/MoveRobot.idl
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/action/MoveRobot.action
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/ament_index/resource_index/package_run_dependencies/robot_control_interface
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/ament_index/resource_index/parent_prefix_path/robot_control_interface
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/ament_prefix_path.sh
+[11.439s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/ament_prefix_path.dsv
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/path.sh
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/environment/path.dsv
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/local_setup.bash
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/local_setup.sh
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/local_setup.zsh
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/local_setup.dsv
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/package.dsv
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/ament_index/resource_index/packages/robot_control_interface
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_generator_cExport.cmake
+[11.440s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_generator_cExport-noconfig.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_introspection_cExport.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_cExport.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_cExport-noconfig.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_generator_cppExport.cmake
+[11.441s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_introspection_cppExport.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_cppExport.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_generator_pyExport.cmake
+[11.442s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/export_robot_control_interface__rosidl_generator_pyExport-noconfig.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/rosidl_cmake-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interfaceConfig.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/cmake/robot_control_interfaceConfig-version.cmake
+[11.443s] -- Installing: /home/tianshu/ROS2Introduction/action_intro_ws_cpp/install/robot_control_interface/share/robot_control_interface/package.xml
+[11.451s] Invoked command in '/home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) WSLENV=ELECTRON_RUN_AS_NODE/w: /home/tianshu/miniconda3/bin/cmake --install /home/tianshu/ROS2Introduction/action_intro_ws_cpp/build/robot_control_interface
