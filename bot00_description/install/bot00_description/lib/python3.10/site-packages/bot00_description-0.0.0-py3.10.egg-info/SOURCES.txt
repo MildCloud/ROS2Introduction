@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 bot00_description/__init__.py
+bot00_description/rotate_wheel.py
 build/bot00_description/bot00_description.egg-info/PKG-INFO
 build/bot00_description/bot00_description.egg-info/SOURCES.txt
 build/bot00_description/bot00_description.egg-info/dependency_links.txt
