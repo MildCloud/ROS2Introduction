@@ -47,6 +47,6 @@ class RotateWheelNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = RotateWheelNode('wheel')
-    node.update_speed([15.0,-15.0])
+    node.update_speed([15.0, 15.0])
     rclpy.spin(node)
     rclpy.shutdown()
