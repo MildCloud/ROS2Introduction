@@ -17,3 +17,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/urdf_intro.urdf
+world/intro.world/model.config
+world/intro.world/model.sdf

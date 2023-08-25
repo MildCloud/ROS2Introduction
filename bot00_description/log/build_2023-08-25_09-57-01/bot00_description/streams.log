@@ -1,0 +1,22 @@
+[0.577s] Invoking command in '/home/tianshu/ROS2Introduction/bot00_description': PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed
+[0.716s] running egg_info
+[0.717s] writing build/bot00_description/bot00_description.egg-info/PKG-INFO
+[0.717s] writing dependency_links to build/bot00_description/bot00_description.egg-info/dependency_links.txt
+[0.718s] writing entry points to build/bot00_description/bot00_description.egg-info/entry_points.txt
+[0.718s] writing requirements to build/bot00_description/bot00_description.egg-info/requires.txt
+[0.718s] writing top-level names to build/bot00_description/bot00_description.egg-info/top_level.txt
+[0.720s] reading manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.720s] writing manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] running install
+[0.720s] running install_lib
+[0.721s] running install_data
+[0.721s] copying urdf/urdf_intro.urdf -> /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/share/bot00_description/urdf
+[0.721s] running install_egg_info
+[0.722s] removing '/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages/bot00_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.723s] Copying build/bot00_description/bot00_description.egg-info to /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages/bot00_description-0.0.0-py3.10.egg-info
+[0.723s] running install_scripts
+[0.742s] Installing rotate_wheel script to /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/bot00_description
+[0.742s] writing list of installed files to '/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log'
+[0.757s] Invoked command in '/home/tianshu/ROS2Introduction/bot00_description' returned '0': PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed

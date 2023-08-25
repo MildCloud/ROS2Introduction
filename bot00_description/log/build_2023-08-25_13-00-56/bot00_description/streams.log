@@ -1,0 +1,18 @@
+[0.398s] Invoking command in '/home/tianshu/ROS2Introduction/bot00_description': PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed
+[0.533s] running egg_info
+[0.533s] writing build/bot00_description/bot00_description.egg-info/PKG-INFO
+[0.537s] writing dependency_links to build/bot00_description/bot00_description.egg-info/dependency_links.txt
+[0.537s] writing entry points to build/bot00_description/bot00_description.egg-info/entry_points.txt
+[0.537s] writing requirements to build/bot00_description/bot00_description.egg-info/requires.txt
+[0.538s] writing top-level names to build/bot00_description/bot00_description.egg-info/top_level.txt
+[0.540s] reading manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.541s] writing manifest file 'build/bot00_description/bot00_description.egg-info/SOURCES.txt'
+[0.541s] running build
+[0.541s] running build_py
+[0.542s] running install
+[0.542s] running install_lib
+[0.543s] running install_data
+[0.544s] copying launch/gazebo.launch.py -> /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/share/bot00_description/launch
+[0.544s] creating /home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/share/bot00_description/world
+[0.545s] error: can't copy 'world/intro.world': doesn't exist or not a regular file
+[0.559s] Invoked command in '/home/tianshu/ROS2Introduction/bot00_description' returned '1': PYTHONPATH=/home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/prefix_override:/home/tianshu/ROS2Introduction/bot00_description/install/bot00_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base build/bot00_description build --build-base /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/build install --record /home/tianshu/ROS2Introduction/bot00_description/build/bot00_description/install.log --single-version-externally-managed
