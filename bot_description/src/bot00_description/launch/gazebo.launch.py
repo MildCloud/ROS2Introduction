@@ -13,9 +13,9 @@ def generate_launch_description():
     ld = LaunchDescription()
     pkg_share = FindPackageShare(package=package_name).find(package_name=package_name)
     urdf_model_path = os.path.join(pkg_share, f'urdf/{urdf_name}')
-    gazebo_world_path = os.path.join(pkg_share, 'world')
+    gazebo_world_path = os.path.join(pkg_share, 'world/bot_intro.world')
 
-    start_gazebo_cmd = ExecuteProcess(cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], output='screen')
+    start_gazebo_cmd = ExecuteProcess(cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', gazebo_world_path], output='screen')
 
     spawn_entity_cmd = Node(
         package='gazebo_ros', 
