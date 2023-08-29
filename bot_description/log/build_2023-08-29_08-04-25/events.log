@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'bot00_description'}
+[0.000346] (-) JobUnselected: {'identifier': 'bot_cartographer'}
+[0.000358] (bot_navigation2) JobQueued: {'identifier': 'bot_navigation2', 'dependencies': OrderedDict()}
+[0.000369] (bot_navigation2) JobStarted: {'identifier': 'bot_navigation2'}
+[0.015931] (bot_navigation2) JobProgress: {'identifier': 'bot_navigation2', 'progress': 'cmake'}
+[0.016354] (bot_navigation2) Command: {'cmd': ['/home/tianshu/miniconda3/bin/cmake', '/home/tianshu/ROS2Introduction/bot_description/src/bot_navigation2', '-DCMAKE_INSTALL_PREFIX=/home/tianshu/ROS2Introduction/bot_description/install/bot_navigation2'], 'cwd': '/home/tianshu/ROS2Introduction/bot_description/build/bot_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'tianshu'), ('GIT_ASKPASS', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-11/lib64:/usr/local/cuda-11.8/lib64:/usr/local/cuda-12/lib64:/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:'), ('HOME', '/home/tianshu'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/tianshu/ROS2Introduction'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-45d85ae0-8dc0-4a8d-aeb1-c80e8007cc21.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tianshu'), ('NAME', 'tian-shu-ASUS'), ('WSL_INTEROP', '/run/WSL/11_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/tianshu/.yarn/bin:/home/tianshu/.config/yarn/global/node_modules/.bin:/home/tianshu/miniconda3/bin:/home/tianshu/miniconda3/condabin:/home/tianshu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/MingW(x86_64-13.1.0-release-posix-seh-msvcrt-rt_v11-rev1)/mingw64/bin:/mnt/c/Program Files/Bandizip:/mnt/c/Users/hts18/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/JetBrains/IntelliJ IDEA 2023.1.1/bin:/mnt/c/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-005e378273.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/tianshu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tianshu/ROS2Introduction/bot_description/build/bot_navigation2'), ('CONDA_EXE', '/home/tianshu/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/tianshu/miniconda3'), ('CHROME_BIN', '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('EDITOR', 'gedit'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099543] (-) TimerEvent: {}
+[0.199855] (-) TimerEvent: {}
+[0.215150] (bot_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.4.0\n'}
+[0.299986] (-) TimerEvent: {}
+[0.400286] (-) TimerEvent: {}
+[0.500593] (-) TimerEvent: {}
+[0.600967] (-) TimerEvent: {}
+[0.649910] (bot_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.4.0\n'}
+[0.701072] (-) TimerEvent: {}
+[0.801365] (-) TimerEvent: {}
+[0.878569] (bot_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901470] (-) TimerEvent: {}
+[0.995477] (bot_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.001603] (bot_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.001832] (-) TimerEvent: {}
+[1.003507] (bot_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.004087] (bot_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.007594] (bot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101965] (-) TimerEvent: {}
+[1.132032] (bot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.138545] (bot_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.138896] (bot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.139121] (bot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.146307] (bot_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.202114] (-) TimerEvent: {}
+[1.302408] (-) TimerEvent: {}
+[1.402736] (-) TimerEvent: {}
+[1.503027] (-) TimerEvent: {}
+[1.603376] (-) TimerEvent: {}
+[1.703761] (-) TimerEvent: {}
+[1.804067] (-) TimerEvent: {}
+[1.904484] (-) TimerEvent: {}
+[2.004744] (-) TimerEvent: {}
+[2.105009] (-) TimerEvent: {}
+[2.205320] (-) TimerEvent: {}
+[2.305625] (-) TimerEvent: {}
+[2.405925] (-) TimerEvent: {}
+[2.506226] (-) TimerEvent: {}
+[2.606606] (-) TimerEvent: {}
+[2.706929] (-) TimerEvent: {}
+[2.807238] (-) TimerEvent: {}
+[2.823661] (bot_navigation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.906800] (bot_navigation2) StdoutLine: {'line': b'-- Found nav2_bringup: 1.1.9 (/opt/ros/humble/share/nav2_bringup/cmake)\n'}
+[2.907302] (-) TimerEvent: {}
+[2.908069] (bot_navigation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.945208] (bot_navigation2) StderrLine: {'line': b"Error parsing '/home/tianshu/ROS2Introduction/bot_description/src/bot_navigation2/package.xml':\n"}
+[2.996558] (bot_navigation2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.996708] (bot_navigation2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.996812] (bot_navigation2) StderrLine: {'line': b'    main()\n'}
+[2.996853] (bot_navigation2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.996878] (bot_navigation2) StderrLine: {'line': b'    raise e\n'}
+[2.996903] (bot_navigation2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.996926] (bot_navigation2) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.996949] (bot_navigation2) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[2.997767] (bot_navigation2) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[2.997864] (bot_navigation2) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tianshu/ROS2Introduction/bot_description/src/bot_navigation2/package.xml':\n"}
+[2.997894] (bot_navigation2) StderrLine: {'line': b'Error(s):\n'}
+[2.997918] (bot_navigation2) StderrLine: {'line': b"- The generic dependency on 'nav2_bringup' is redundant with: exec_depend\n"}
+[3.005596] (bot_navigation2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.005716] (bot_navigation2) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[3.005748] (bot_navigation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.005773] (bot_navigation2) StderrLine: {'line': b'  /home/tianshu/ROS2Introduction/bot_description/src/bot_navigation2/package.xml\n'}
+[3.005798] (bot_navigation2) StderrLine: {'line': b'  /home/tianshu/ROS2Introduction/bot_description/build/bot_navigation2/ament_cmake_core/package.cmake)\n'}
+[3.005822] (bot_navigation2) StderrLine: {'line': b'  returned error code 1\n'}
+[3.005845] (bot_navigation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.005868] (bot_navigation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.005891] (bot_navigation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.005914] (bot_navigation2) StderrLine: {'line': b'  CMakeLists.txt:21 (ament_lint_auto_find_test_dependencies)\n'}
+[3.005936] (bot_navigation2) StderrLine: {'line': b'\n'}
+[3.005958] (bot_navigation2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.007864] (bot_navigation2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.007963] (-) TimerEvent: {}
+[3.012263] (bot_navigation2) CommandEnded: {'returncode': 1}
+[3.012693] (bot_navigation2) JobEnded: {'identifier': 'bot_navigation2', 'rc': 1}
+[3.023304] (-) EventReactorShutdown: {}
